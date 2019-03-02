@@ -2,11 +2,10 @@
 
 Warmup a website during deployment with VSTS. Using this plugin you'll have full control on how to warmup your website.
 
-## Key features
+##Internal ci pipelines
 
-- Multiple relative paths
-- Configurable retry count and times
-- Throw exception when statuscode is not succesfull
-- Awesome burning icon
-- Ignore SSL support (thanks to [PixelByProxy](https://github.com/PixelByProxy))
-- Support for basic auth websites
+### Master Pipeline (Internal Test)
+[![Build status](https://dev.azure.com/witiko/github.elgorro.website-warmup/_apis/build/status/github.elgorro.website-warmup_master-ci)](https://dev.azure.com/witiko/github.elgorro.website-warmup/_build/latest?definitionId=25)
+
+### Test Pipelines (Internl Test)
+[![Build status](https://dev.azure.com/witiko/github.elgorro.website-warmup/_apis/build/status/github.elgorro.website-warmup_features-ci)](https://dev.azure.com/witiko/github.elgorro.website-warmup/_build/latest?definitionId=26)
